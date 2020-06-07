@@ -8,8 +8,3 @@ commands:
   alwaystime:
     description: Set to night or day to your current world.
     usage: /alwaystime [night/day]
-
-permissions:
-  alwaystime.change:
-    description: set the the ting.
-    default: op

@@ -13,10 +13,10 @@ public final class AlwaysTime extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        Bukkit.getLogger().info("AlwaysTimeEnabled!");
         Bukkit.getPluginManager().addPermission(new Permission("alwaystime.change"));
         this.getCommand("alwaystime").setExecutor(this);
         timeSchedulerManager = new TimeSchedulerManager(Bukkit.getScheduler());
+        Bukkit.getLogger().info("AlwaysTimeEnabled!");
     }
 
     @Override

@@ -3,7 +3,7 @@ package uk.ocelotcr;
 import org.bukkit.World;
 import org.bukkit.scheduler.BukkitRunnable;
 
-public abstract class AbstractTime extends BukkitRunnable {
+public abstract class AbstractTime implements Runnable {
 
     private final World world;
 
